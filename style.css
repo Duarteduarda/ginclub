@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=Rosarivo&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background:#FFF5D8;
+
+    min-width: 800px;
+    max-width: 1400px;
+    margin: auto;
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background: #FFF5D8;
+box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.cabeçalho-logo {
+    height: 60px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 34px;
+}
+
+.cabeçalho-menu-intem {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: medium;
+    color: #3E8E7E;
+    font-size: 17px;
+}
+
+.cabeçalho-menu-botao {
+    background: #3E8E7E;
+    border-radius: 15px;
+    border: none;
+    width: 79.67px;
+    height: 32.17px;
+    left: 1206px;
+    top: 39px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: medium;
+    color: #FABB51;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+}
+
+.cabeçalho-menu-botao:hover {
+    background-color: #7CD1B8;
+    color: #3E8E7E
+}
+
+.conteudo {
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+.conteudo-primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 5px
+}
+
+.conteudo-primario-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.conteudo-primario-escrito-titulo {
+    font-family: 'Rosarivo', serif;
+    color: #FABB51;
+    font-size: 40px;
+    font-weight: 200;
+    
+}
+
+.conteudo-primario-escrito-subtitulo {
+    font-family: 'Rubik', sans-serif;
+    color: #3E8E7E;
+    font-size: 18.5345px;
+    font-weight: 200;
+}
+
+.conteudo-primario-escrito-resto {
+    color: #3E8E7E;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+
+.conteudo-primario-escrito-botao {
+    background: #3E8E7E;
+    border-radius: 15px;
+    width: 130px;
+    height: 40px;
+    left: 249px;
+    top: 506px;
+    color: #FABB51;
+    border: none;
+    font-weight:50;
+    font-size: 15px;
+    font-family: 'Rosarivo', serif;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+}
+
+.conteudo-primario-escrito-botao:hover {
+    background-color: #7CD1B8;
+    color: #3E8E7E
+}
+
+.conteudo-principal-imagem {
+    padding-bottom: 100px;
+}
+
+.conteudo-secundario {
+    padding-top: 40px;
+    background: #3E8E7E;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-secundario-titulo {
+    font-family: 'Rosarivo', serif;
+    color: #FABB51;
+    font-weight:50;
+    align-items: center;
+    flex-direction: column;
+    font-size: 34px;
+}
+
+.conteudo-secundario-check- {
+    flex-direction: row;
+    justify-content: space-around;
+    background: #3E8E7E;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.conteudo-secundario-escrito- {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #3E8E7E;
+    color: #FFF5D8;
+    font-family: 'Rosarivo', serif;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-right:200px;
+    padding-left: 200px;
+}
+
+.conteudo-terciario {
+    display: flex;
+    padding-top: 40px;
+    background: #FFF5D8;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 55px;
+    
+    
+}
+
+.conteudo-terciario-titulo1 {
+    display: flex;
+    color: #3E8E7E;
+    font-family: 'Rosarivo', serif;
+    font-weight:50;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px; 
+}
+
+.conteudo-terciario-card {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    background: #FFF5D8;
+    color: #3E8E7E;
+    font-family: 'Rosarivo', serif;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-right: 170px;
+    padding-left: 170px;
+}
+
+.conteudo-terciario-card1 {
+    display: flex;
+    background: #FFF8E4;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+    border-radius: 7.55224px;
+    width: 210px;
+    height: 270px;
+    left: 293px;
+    top: 1334px;
+    flex-direction: column;
+
+}
+
+
+.conteudo-terciario-card2 {
+    display: flex;
+    background: #FFF8E4;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+    border-radius: 7.55224px;
+    width: 210px;
+    height: 270px;
+    left: 293px;
+    top: 1334px;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.conteudo-terciario-card3 {
+    display: flex;
+    background: #FFF8E4;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+    border-radius: 7.55224px;
+    width: 210px;
+    height: 270px;
+    left: 293px;
+    top: 1334px;
+    flex-direction: column;
+}
+
+.conteudo-terciario-titulo {
+    display: flex;
+       color: #FABB51;
+       font-family: 'Rosarivo', serif;
+       font-size: 28px;
+       justify-content: center;
+       align-items: center;
+       padding-top: 35px;
+       padding-bottom:30px;
+    }
+
+.conteudo-terciario-card1-cifra {
+    display: flex;
+    color: #3E8E7E;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    padding-left:25px;
+    padding-bottom:0px;
+    margin: 0;
+}
+
+.conteudo-terciario-card1-preço {
+    display: flex;
+    color: #3E8E7E;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.cifra {
+    font-size: 15px;
+}
+
+.conteudo-terciario-card1-pormes {
+    display: flex;
+    color: #3E8E7E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.conteudo-terciario-card1-botao {
+    background: #FFF8E4;
+    border: 2px solid #3E8E7E;
+    box-sizing: border-box;
+    border-radius: 10.1613px;
+    width: 120px;
+    height: 42px;
+    left: 346px;
+    top: 1573px;
+    align-self: center;
+    color: #3E8E7E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+
+}
+
+.conteudo-terciario-card1-botao:hover {
+    background-color: #7CD1B8;
+    color: #3E8E7E;
+}
+
+.conteudo-terciario-card1-central {
+    width: 120px;
+    height: 42px;
+    left: 654px;
+    top: 1541px;
+    background: #3E8E7E;
+    border-radius: 10.1613px;
+    font-family: 'Rubik', sans-serif;
+    color: #FABB51;
+    font-size: 16px;
+    border: none;
+    align-self: center;
+    box-shadow: 3.02px 3.0209px 3.0209px rgba(0, 0, 0, 0.19);
+}
+
+.conteudo-terciario-card1-central:hover {
+    background-color: #7CD1B8;
+    color: #3E8E7E
+}
