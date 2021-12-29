@@ -1,0 +1,1 @@
+Essa uma landing page criada para estudo. O Design inicial foi feito com o Figma e a linguagem utilizada para criação e estilização foi HTML e CSS.
